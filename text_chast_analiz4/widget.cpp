@@ -24,13 +24,13 @@ Widget::Widget(QWidget *parent)
 
 
         QLabel * lblTextObject = new QLabel("&Insert text to FILD:");
-        insertTextObjectButton = new QPushButton(tr("STAT FILD"));
+        insertTextObjectButton = new QPushButton(tr("STAT F&&ILD"));
 
         QLabel * lblFileObject = new QLabel("&File Text for STAT:");
-        insertFileObjectButton = new QPushButton(tr("OPEN FILE"));
+        insertFileObjectButton = new QPushButton(tr("OPEN &&FILE"));
 
         QLabel * lblSaveObject = new QLabel("&Save STAT  at FILD:");
-        insertSaveObjectButton = new QPushButton(tr("&SAVE STAT:"));
+        insertSaveObjectButton = new QPushButton(tr("&&SAVE STAT:"));
 
 
         bottomLayout->addWidget(lblTextObject,0,0);
