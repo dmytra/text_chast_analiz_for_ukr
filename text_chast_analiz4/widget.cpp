@@ -37,19 +37,19 @@ Widget::Widget(QWidget *parent)
         bottomLayout->addWidget(insertTextObjectButton,1,0);
         lblTextObject->setBuddy(insertTextObjectButton);
         lblTextObject->setAlignment(Qt::AlignBottom | Qt::AlignLeft);
-        lblTextObject->setFrameStyle(QFrame::Panel | QFrame::Sunken);
+        lblTextObject->setFrameStyle(QFrame::Box | QFrame::Raised); //(QFrame::Panel | QFrame::Sunken);
 
         bottomLayout->addWidget(lblFileObject,0,1);
         bottomLayout->addWidget(insertFileObjectButton,1,1);
         lblFileObject->setBuddy(insertFileObjectButton);
         lblFileObject->setAlignment(Qt::AlignBottom | Qt::AlignLeft);
-        lblFileObject->setFrameStyle(QFrame::Panel | QFrame::Sunken);
+        lblFileObject->setFrameStyle(QFrame::Box | QFrame::Raised); //(QFrame::Panel | QFrame::Sunken);
 
         bottomLayout->addWidget(lblSaveObject,0,2);
         bottomLayout->addWidget(insertSaveObjectButton,1,2);
         lblSaveObject->setBuddy(insertSaveObjectButton);
         lblSaveObject->setAlignment(Qt::AlignBottom | Qt::AlignLeft);
-        lblSaveObject->setFrameStyle(QFrame::Panel | QFrame::Sunken);
+        lblSaveObject->setFrameStyle(QFrame::Box | QFrame::Raised); //(QFrame::Panel | QFrame::Sunken);
 
 
         textEdit = new QTextEdit;
